@@ -5,11 +5,11 @@
 title: Tau Beta Sigma
 description: |
   Purdue University's chapter of the National honorary Band Service Sorority
-owner: Beta Sigma Webmaster # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+owner: Beta Sigma Webmaster
+first_published: 2016
 email: betasigmawebmaster@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://www.purduetbs.com" # the base hostname & protocol for your site
 social:
 #twitter: https://twitter.com/<username>
   github: https://github.com/betasigmawebmaster
