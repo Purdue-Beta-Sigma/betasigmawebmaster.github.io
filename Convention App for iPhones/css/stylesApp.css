@@ -1,0 +1,251 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h1, h2, h3, h4, {
+	margin-left: 6px;
+}	
+
+#head_holder {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	z-index: 1;
+}
+
+.bodycontent {
+	/*background-color: gray;*/
+	margin-top: 60px;
+	margin-left: 0;
+	z-index: auto;
+	/*color: #0000ff;*/
+}
+
+/*Navigation Menu*/
+.topnav {
+	overflow: hidden;
+	background-color: transparent;
+	position: fixed;
+	left: 6px;
+	top: 6px;
+	z-index: 2;
+}
+
+.topnav #myLinks {
+	display: none;
+}
+
+.topnav a {
+	color: white;
+	background-color: #0000ff;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	max-width: 140px;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.topnav a.icon {
+	background: #0000ff;
+	display: block;
+	position: fixed; 
+	width: 20px;
+	height: 20px;
+	left: 6px;
+	top: 6px;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+	z-index: 2;
+}
+
+.topnav a.active {
+	color: #0000ff;
+	background-color: white;
+}
+
+.topnav a.placeholder {
+	height: 20px;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+.topnav a:hover {
+	background-color: #0000cc;
+	color: white;
+}
+
+.topnav a.placeholder:hover {
+	background-color: white;
+}
+
+.topnav a.icon:hover {
+	background-color: white;
+	color: #0000ff;
+}
+
+.active {
+	background-color: white;
+}
+
+/*Logo Image*/
+#heading_logo {
+	position: fixed;
+	right: 10px;
+	top: 6px;
+	height: 45px;
+	display: block;
+	float: right;	
+}
+
+/*Welcome Page*/
+.welcome {
+	max-width: 350px;
+}
+
+/*Schedules Day Tabs*/
+.tab {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	margin-top: 5px;
+}
+
+.tab button {
+	background-color: inherit;
+	float: left;
+	width: 33.33%; /*change this if there are no events for Friday*/
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+.tab button:hover {
+	background-color: #0000cc;
+	color: white;
+}
+
+.tab button.current {
+	background-color: #0000ff;
+	color: white;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 0px;
+	border-top: none;
+	animation: fadeEffect 0.3s;
+}
+
+@keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+/*Speaker Images*/
+.speaker {
+	max-width: 160px;
+	float: left;
+	margin-right: 6px;
+}
+
+/*Speaker and Workshop Fillers*/
+.filler{
+	height: 60px;
+}
+
+/*Speaker and Workshop Tabs*/
+.wsTab {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	margin-top: 5px;
+}
+
+.wsTab button {
+	background-color: inherit;
+	float: left;
+	width: 33.3%;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+.wsTab button:hover {
+	background-color: #0000cc;
+	color: white;
+}
+
+.wsTab button.current {
+	background-color: #0000ff;
+	color: white;
+}
+
+.wsTabcontent {
+	display: none;
+	padding: 6px 0px;
+	border-top: none;
+	animation: fadeEffect 0.3s;
+}
+
+@keyframes fadeEffect {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+/*Workshop Descriptions*/
+.wsHead {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.hostHead {
+	margin-top: 3px;
+	margin-bottom: 6px;
+}
+
+.topLink{
+	/*color: red;*/
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.wsDesc{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+/*Schedules Table*/
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #D4D3E9;
+	text-align: center;
+}
+
+th {
+	background-color: #0000ff;
+	color: white;
+}
+
+.zebra{
+	background-color: #D9D7F1;
+}
+
+/*Maps*/
+.maps {
+	max-width: 350px;
+	z-index: -2;
+}
+
+/*Host Chapter*/
+.host { 
+	max-width: 350px;
+}
