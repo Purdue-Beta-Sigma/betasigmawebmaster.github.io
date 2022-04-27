@@ -1660,7 +1660,7 @@ table {
       border-top: 0; }
 
 /* responsive table */
-.table.sisters{
+.sisters{
 @media screen and (max-width: 960px){
     td{
 	    display: block;
