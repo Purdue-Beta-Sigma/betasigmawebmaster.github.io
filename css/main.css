@@ -1659,6 +1659,14 @@ table {
     table.alt tfoot {
       border-top: 0; }
 
+/* responsive table */
+@media screen and (max-width: 960px){
+    .table tbody, .table tr, .table td{
+	    display: block;
+	    width: 100%;
+	}
+}
+
 /* Button */
 input[type="submit"],
 input[type="reset"],
