@@ -1660,12 +1660,14 @@ table {
       border-top: 0; }
 
 /* responsive table */
+.table.sisters{
 @media screen and (max-width: 960px){
-    table.sisters tbody, .table tr, .table td{
+    td{
 	    display: block;
 	    width: 100%;
-	}
-}
+      }
+    }
+ }
 
 /* Button */
 input[type="submit"],
