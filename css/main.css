@@ -1658,6 +1658,8 @@ table {
       border-bottom: 0; }
     table.alt tfoot {
       border-top: 0; }
+    table.sisters td{
+      width: 50%; }
 
 /* responsive table */
 @media screen and (max-width: 760px){
