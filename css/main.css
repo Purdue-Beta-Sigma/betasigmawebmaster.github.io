@@ -1661,7 +1661,7 @@ table {
 
 /* responsive table */
 @media screen and (max-width: 960px){
-    .table tbody, .table tr, .table td{
+    table.sisters tbody, .table tr, .table td{
 	    display: block;
 	    width: 100%;
 	}
