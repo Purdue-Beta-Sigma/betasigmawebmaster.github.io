@@ -1661,7 +1661,7 @@ table {
 
 /* responsive table */
 @media screen and (max-width: 760px){
-    table.sisters tbody tr td{
+    table.sisters, table.sisters tbody, table.sisters tr, table.sisters td{
 	 display: inline-block;
          width: 100%;
 	 vertical-align: middle;
