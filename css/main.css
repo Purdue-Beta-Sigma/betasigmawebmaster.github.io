@@ -1889,40 +1889,28 @@ button,
   padding: 0;
   width: 100%; }
   .featuresl li {
-    padding: 4em 4em 2em 6em ;
+    padding: 0em 4em 2em 6em ;
     display: block;
     position: relative;
     text-align: center;
     width: 100%; }
     .featuresl li:nth-child(1) {
-      background-color: rgba(0, 0, 0, 0.035); }
-    .featuresl li:nth-child(2) {
-      background-color: rgba(0, 0, 0, 0.07); }
-    .featuresl li:nth-child(3) {
-      background-color: rgba(0, 0, 0, 0.105); }
-    .featuresl li:nth-child(4) {
-      background-color: rgba(0, 0, 0, 0.14); }
-    .featuresl li:nth-child(5) {
-      background-color: rgba(0, 0, 0, 0.175); }
-    .featuresl li:nth-child(6) {
-      background-color: rgba(0, 0, 0, 0.21); }
-    .featuresl li:nth-child(7) {
       background-color: rgba(0, 0, 0, 0.245); }
-    .featuresl li:nth-child(8) {
+    .featuresl li:nth-child(2) {
       background-color: rgba(0, 0, 0, 0.28); }
-    .featuresl li:nth-child(9) {
+    .featuresl li:nth-child(3) {
       background-color: rgba(0, 0, 0, 0.315); }
-    .featuresl li:nth-child(10) {
+    .featuresl li:nth-child(4) {
       background-color: rgba(0, 0, 0, 0.35); }
-    .featuresl li:nth-child(11) {
+    .featuresl li:nth-child(5) {
       background-color: rgba(0, 0, 0, 0.385); }
-    .featuresl li:nth-child(12) {
+    .featuresl li:nth-child(6) {
       background-color: rgba(0, 0, 0, 0.42); }
-    .featuresl li:nth-child(13) {
+    .featuresl li:nth-child(7) {
       background-color: rgba(0, 0, 0, 0.455); }
-    .featuresl li:nth-child(14) {
+    .featuresl li:nth-child(8) {
       background-color: rgba(0, 0, 0, 0.49); }
-    .featuresl li:nth-child(15) {
+    .featuresl li:nth-child(9) {
       background-color: rgba(0, 0, 0, 0.525); }
     .featuresl li:before {
       display: block;
@@ -1941,7 +1929,7 @@ button,
       border-bottom-left-radius: 3px; }
     @media screen and (max-width: 980px) {
       .featuresl li {
-        padding: 3em 2em 1em 2em ;
+        padding: 0em 2em 1em 2em ;
         text-align: center; }
         .featuresl li:before {
           left: 0;
@@ -1950,7 +1938,7 @@ button,
           top: 0; } }
     @media screen and (max-width: 736px) {
       .featuresl li {
-        padding: 3em 0 1em 0 ;
+        padding: 0em 0 1em 0 ;
         background-color: transparent !important;
         border-top: solid 2px #fff;
         width: 100%; }
