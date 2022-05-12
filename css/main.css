@@ -1889,7 +1889,7 @@ button,
   padding: 0;
   width: 100%; }
   .featuresl li {
-    padding: 0em 4em 2em 6em ;
+    padding: 4em 4em 2em 6em ;
     display: block;
     position: relative;
     text-align: center;
@@ -1917,7 +1917,7 @@ button,
       color: #00ffcc;
       position: center;
       left: 1.75em;
-      top: 2.75em;
+      top: 0em;
       font-size: 1.5em; }
     .featuresl li:nth-child(1) {
       border-top-left-radius: 3px; }
@@ -1929,7 +1929,7 @@ button,
       border-bottom-left-radius: 3px; }
     @media screen and (max-width: 980px) {
       .featuresl li {
-        padding: 0em 2em 1em 2em ;
+        padding: 3em 2em 1em 2em ;
         text-align: center; }
         .featuresl li:before {
           left: 0;
@@ -1938,7 +1938,7 @@ button,
           top: 0; } }
     @media screen and (max-width: 736px) {
       .featuresl li {
-        padding: 0em 0 1em 0 ;
+        padding: 3em 0 1em 0 ;
         background-color: transparent !important;
         border-top: solid 2px #fff;
         width: 100%; }
