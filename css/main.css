@@ -2132,7 +2132,8 @@ button,
     -ms-order: 2;
     order: 2;
     max-width: 48em;
-    width: 60%; }
+    width: 60%; 
+     text-align: center;}
   .spotlight2:nth-child(2n) {
     -moz-flex-direction: row-reverse;
     -webkit-flex-direction: row-reverse;
