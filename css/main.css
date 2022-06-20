@@ -2105,6 +2105,81 @@ button,
     .spotlight .content {
       padding: 3em 2em 1em 2em ; } }
 
+/* Spotlight2 */
+.spotlight2 {
+  -moz-align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex; }
+  .spotlight2 .image {
+    -moz-order: 1;
+    -webkit-order: 1;
+    -ms-order: 1;
+    order: 1;
+    border-radius: 0;
+    width: 40%; }
+    .spotlight2 .image img {
+      border-radius: 0;
+      width: 100%; }
+  .spotlight2 .content {
+    padding: 2em 4em 0.1em 4em ;
+    -moz-order: 2;
+    -webkit-order: 2;
+    -ms-order: 2;
+    order: 2;
+    max-width: 48em;
+    width: 60%; }
+  .spotlight2:nth-child(2n) {
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
+  .spotlight2:nth-child(1) {
+    background-color: rgba(0, 0, 0, 0.075); }
+  .spotlight2:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.15); }
+  .spotlight2:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.225); }
+  .spotlight2:nth-child(4) {
+    background-color: rgba(0, 0, 0, 0.3); }
+  .spotlight2:nth-child(5) {
+    background-color: rgba(0, 0, 0, 0.375); }
+  .spotlight2:nth-child(6) {
+    background-color: rgba(0, 0, 0, 0.45); }
+  .spotlight2:nth-child(7) {
+    background-color: rgba(0, 0, 0, 0.525); }
+  .spotlight2:nth-child(8) {
+    background-color: rgba(0, 0, 0, 0.6); }
+  .spotlight2:nth-child(9) {
+    background-color: rgba(0, 0, 0, 0.675); }
+  .spotlight2:nth-child(10) {
+    background-color: rgba(0, 0, 0, 0.75); }
+  @media screen and (max-width: 1280px) {
+    .spotlight2 .image {
+      width: 45%; }
+    .spotlight2 .content {
+      width: 100%; 
+      text-align: center;}}
+  @media screen and (max-width: 980px) {
+    .spotlight2 {
+      display: block; }
+      .spotlight2 br {
+        display: none; }
+      .spotlight2 .image {
+        text-align: center; }
+      .spotlight2 .content {
+        padding: 4em 3em 2em 3em ;
+        max-width: none;
+        text-align: center;
+        width: 100%; } }
+  @media screen and (max-width: 736px) {
+    .spotlight .content {
+      padding: 3em 2em 1em 2em ; } }
+
 /* Wrapper */
 .wrapper {
   padding: 6em 0 4em 0 ; }
