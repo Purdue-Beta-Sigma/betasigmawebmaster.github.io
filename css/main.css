@@ -2884,7 +2884,6 @@ body.is-mobile.landing #footer {
 .vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
   position: absolute;
-  top: 0;
   left: 50%;
   width: 85%;
   height: 100%; }
