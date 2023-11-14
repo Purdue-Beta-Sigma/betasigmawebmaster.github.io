@@ -14,3 +14,5 @@ Derek Crane Spring 18- Spring 20
 Trevor Ladner Spring 20 - Spring 22
 
 Caterina Oliverio Spring 22 - Present
+
+Samuel Reusze Fall 23 - Present
