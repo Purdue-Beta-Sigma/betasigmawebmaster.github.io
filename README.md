@@ -7,11 +7,11 @@ This website was based on the "spectral" template by HTML5 UP (html5up.net). Man
 
 This code will be passed down to successive webmasters
 
-Michael Porter Spring 20- Spring 21
-
 Derek Crane Spring 18- Spring 20
 
-Trevor Ladner Spring 20 - Spring 22
+Michael Porter Spring 20- Spring 21
+
+Trevor Ladner Spring 21 - Spring 22
 
 Caterina Oliverio Spring 22 - Present
 
