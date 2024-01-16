@@ -13,6 +13,8 @@ Michael Porter Spring 20- Spring 21
 
 Trevor Ladner Spring 21 - Spring 22
 
-Caterina Oliverio Spring 22 - Present
+Caterina Oliverio Spring 22 - Fall 23
 
 Samuel Reusze Fall 23 - Present
+
+John Danison Spring 24 - Present
