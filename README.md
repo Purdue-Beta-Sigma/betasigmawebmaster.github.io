@@ -15,6 +15,6 @@ Trevor Ladner Spring 21 - Spring 22
 
 Caterina Oliverio Spring 22 - Fall 23
 
-Samuel Reusze Fall 23 - Present
+Samuel Reusze Fall 23 - Spring 24
 
 John Danison Spring 24 - Present
