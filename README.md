@@ -18,3 +18,5 @@ Caterina Oliverio Spring 22 - Fall 23
 Samuel Reusze Fall 23 - Spring 24
 
 John Danison Spring 24 - Present
+
+Allison Schuliger Fall 24 - Present
