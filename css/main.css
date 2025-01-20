@@ -2733,6 +2733,7 @@ body.is-loading #banner:after {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-direction: row;
   max-width: 45em; }
   #cta .inner header {
     -moz-order: 1;
