@@ -2188,6 +2188,8 @@ button,
     .spotlight .content {
       padding: 3em 2em 1em 2em ; } }
 
+/* Makes all inner bodies centered */
+
 .inner {
   display: flex;
   flex-direction: column;
