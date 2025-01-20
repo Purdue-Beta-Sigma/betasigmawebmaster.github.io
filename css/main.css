@@ -2188,15 +2188,18 @@ button,
     .spotlight .content {
       padding: 3em 2em 1em 2em ; } }
 
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Wrapper */
 .wrapper {
   padding: 6em 2em 4em 2em ; }
   .wrapper > .inner {
     width: 60em;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
+    margin: 0 auto; }
     @media screen and (max-width: 1280px) {
       .wrapper > .inner {
         width: 90%; } }
