@@ -91,15 +91,15 @@
 
                         <!-- Buttons Container -->
                         <ul class="features2" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; list-style: none; padding: 0; margin: 0;">
-                            <li><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;"><a href="/BlueCelestials.html">The Blue Celestials</a></button></li>
-                            <li><a href="/Daisies.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Daisies</button></a></li>
-                            <li><a href="/FancyBoots.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Fancy Boots</button></a></li>
-                            <li><a href="/MixedNuts.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Mixed Nuts</button></a></li>
-                            <li><a href="/MohtinGoats.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Mohtin Goats</button></a></li>
-                            <li><a href="/PinkRoses.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Pink Roses</button></a></li>
-                            <li><a href="/SpiceRack.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Spice Rack</button></a></li>
-                            <li><a href="/VelvetBowties.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Velvet Bowties</button></a></li>
-                            <li><a href="/RetiredFamilies.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; padding: 15px 30px; width: 100%;">The Retired Families</button></a></li>
+                            <li><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;"><a href="/BlueCelestials.html">The Blue Celestials</a></button></li>
+                            <li><a href="/Daisies.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Daisies</button></a></li>
+                            <li><a href="/FancyBoots.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Fancy Boots</button></a></li>
+                            <li><a href="/MixedNuts.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Mixed Nuts</button></a></li>
+                            <li><a href="/MohtinGoats.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Mohtin Goats</button></a></li>
+                            <li><a href="/PinkRoses.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Pink Roses</button></a></li>
+                            <li><a href="/SpiceRack.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Spice Rack</button></a></li>
+                            <li><a href="/VelvetBowties.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Velvet Bowties</button></a></li>
+                            <li><a href="/RetiredFamilies.html"><button style="background-color: rgba(0, 0, 0, 0.105); border-radius: 5%; width: 100%;">The Retired Families</button></a></li>
                         </ul>
 
                         <br />
@@ -110,6 +110,11 @@
 
 
         <style>
+            @media screen and (max-width: 570px) {
+                .features2 {
+                    grid-template-columns: repeat(1, 1fr) !important;
+                }
+            }
             .iframe-container {
                 width: 100%;
                 display: flex;
